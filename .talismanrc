@@ -1,0 +1,25 @@
+fileignoreconfig:
+- filename: f5-devops-codespaces/.devcontainer/scripts/gcloud.sh
+  checksum: 987db61cc02e3b4336a28eaf7dd3cc7fd36410259187532469972cab9d246a2c
+- filename: f5-devops-ubuntu/.devcontainer/scripts/setup-user.sh
+  checksum: ce164d18ae6b3c38d385ab2e166a977454d9571f6334dc2c80e24da178de0c3f
+- filename: .devcontainer/scripts/setup-user.sh
+  checksum: cbf2a3e40aaea5412865dd8303ad2a673823650a849585ea7315f630df278986
+- filename: f5-devops-ubuntu/.devcontainer/scripts/azcli-debian.sh
+  checksum: aeff6e82310b058abc85fe5f779a832153396258b24f87e5f2025f566ad03b63
+- filename: f5-devops-ubuntu/.devcontainer/scripts/docker-debian.sh
+  checksum: 527125fac9e587a8689edc9bd9d910b44851edb06815e1b15533f7ff0115f9c2
+- filename: f5-devops-ubuntu/.devcontainer/scripts/gcloud-debian.sh
+  checksum: f8af8bb0f885749e7afb6c863ca54b38412e84f0d4151179a6a8d578bb40697b
+- filename: f5-devops-vscode/.devcontainer/scripts/setup-user.sh
+  checksum: b44469aea746126c5620dcdf847ef460b624c4fa79cf3b73a7ce9e86d25d83ce
+- filename: f5-devops-vscode/.devcontainer/scripts/docker-debian.sh
+  checksum: c8b7ca5d6e296c196bb650c771e4febc92263fcc3567dc4ba6440b12f06c585e
+- filename: f5-devops-vscode/.devcontainer/scripts/gcloud-debian.sh
+  checksum: 338a5ad13599c311fbc95327e420780537558a1f968cd75a31cdda10d89e30c3
+- filename: f5-devops-ubuntu/.devcontainer/scripts/common-debian.sh
+  checksum: afbc4dc2603546cedd4c43072b1b9b204a0922eb75bc76914be01d9c62d012ba
+- filename: f5-devops-vscode/.devcontainer/scripts/azcli-debian.sh
+  checksum: fe0ab6ebca4abe5e610efa7c18246a1ec0d597c56e114327c1657ea294d4c2c5
+- filename: f5-devops-vscode/.devcontainer/scripts/common-debian.sh
+  checksum: e3d1b0c61ad6bec1c7c926c7002b29851ca00c4fcee76a41ff0cd9550fc58b37
