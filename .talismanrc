@@ -23,3 +23,5 @@ fileignoreconfig:
   checksum: fe0ab6ebca4abe5e610efa7c18246a1ec0d597c56e114327c1657ea294d4c2c5
 - filename: f5-devops-vscode/.devcontainer/scripts/common-debian.sh
   checksum: e3d1b0c61ad6bec1c7c926c7002b29851ca00c4fcee76a41ff0cd9550fc58b37
+- filename: .devcontainer/scripts/common-debian.sh
+  checksum: 33e856a9f3209a266b483ed83115ed52b3acca217b0c63b31f4acbcbf62f3f74

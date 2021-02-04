@@ -20,6 +20,8 @@ zsh
 RUN set -ex \
  && bash /tmp/scripts/create-user.sh ${USERNAME} ${USER_UID}  \
  && bash /tmp/scripts/setup-user.sh "${USERNAME}" "${PATH}"
+# common packages
+RUN bash /tmp/scripts/common-debian.sh "true" "${USERNAME}" "${USER_UID}" "${USER_GID}" "false" "true"
 # tools
 RUN set -ex \
 && bash /tmp/scripts/python-debian.sh "${PYTHONVERSION}"\

@@ -2,7 +2,7 @@
 
 based on ubuntu:focal
 
-size about 800MB
+size about 900MB
 
 ## tools:
 
