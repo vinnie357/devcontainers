@@ -12,5 +12,6 @@ sudo chown -R $USER:$USER /home/codespace/workspace
 # . .devcontainer/scripts/preCommit.sh
 . .devcontainer/scripts/tflint.sh
 . .devcontainer/scripts/awsiam.sh
+. .devcontainer/scripts/vesctl.sh
 echo "---tools done---"
 exit
