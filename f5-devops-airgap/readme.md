@@ -22,20 +22,24 @@ default example includes:
 
 
 ### build and tag with your customer need
-
+```bash
 cd f5-devops-airgap
+```
 customize dockerfile to add needed scripts from scripts-library
 ```bash
 RUN set -ex \
     && bash /tmp/scripts/get-atc-debian.sh \
+    && bash /tmp/scripts/your-script-here.sh
 ```
 build local to test:
-```
+```bash
 IMAGE_NAME="f5-devops-airgap"
 docker build -t ${IMAGE_NAME} .
 # test your build locally
 docker run --rm -it ${CONTAINER_IMAGE} bash
-# if successful tag and push to registry
+```
+if successful tag and push to registry:
+```bash
 REGISTRY="myregistry"
 IMAGE_NAME="f5-devops-airgap"
 IMAGE_TAG="mytag"
