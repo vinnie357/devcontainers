@@ -1,6 +1,6 @@
-# f5-devops-airgap container based on f5-devops-base
+# f5-devops-coder container based on f5-devops-airgap
 
-size about 672MB in example, will vary by need.
+size about 1.0GB in example, will vary by need.
 
 ## tools:
 
@@ -15,15 +15,20 @@ size about 672MB in example, will vary by need.
 
 ### modify and add tools for your customer
 
-default example includes:
+from air-gap:
 
 - f5cli
 - atc rpms
 
+## adds:
+- code-server
+- nginx oss
+- f5 vscode plugin
+- terraform vscode plugin
 
 ### build and tag with your customer need
 ```bash
-cd f5-devops-airgap
+cd f5-devops-coder
 ```
 customize dockerfile to add needed scripts from scripts-library
 ```bash
@@ -33,7 +38,7 @@ RUN set -ex \
 ```
 build local to test:
 ```bash
-IMAGE_NAME="f5-devops-airgap"
+IMAGE_NAME="f5-devops-coder"
 docker build -t ${IMAGE_NAME} .
 # test your build locally
 docker run --rm -it ${IMAGE_NAME} bash
@@ -41,7 +46,7 @@ docker run --rm -it ${IMAGE_NAME} bash
 if successful tag and push to registry:
 ```bash
 REGISTRY="myregistry"
-IMAGE_NAME="f5-devops-airgap"
+IMAGE_NAME="f5-devops-coder"
 IMAGE_TAG="mytag"
 # https://docs.docker.com/engine/reference/commandline/tag/
 # alernatively you can build a new image and tag to preseve local
