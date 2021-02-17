@@ -29,6 +29,10 @@ RUN set -ex \
 RUN set -ex \
     && bash /tmp/scripts/nginx-debian.sh \
     && bash /tmp/scripts/coder-debian.sh "${USERNAME}" "${CODER_VERSION}"
+# terraform
+RUN set -ex \
+  && bash /tmp/scripts/terraform-debian.sh "${TERRAFORMVERSION}"
+
 # Clean up
 RUN set -ex \
 && apt autoremove -y && apt clean -y
