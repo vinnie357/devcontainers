@@ -13,3 +13,7 @@ fileignoreconfig:
   checksum: a59df06a993409032f1259e69815ca46ea891d3242ae6b9599adc60113355418
 - filename: f5-devops-coder/scripts/common-debian.sh
   checksum: df40e932aaa6374f6df62c8aeab26538fd9aff2bade8cfd537a392bc412b5780
+- filename: scripts-library/ubuntu/node-debain.sh
+  checksum: f69dd1bf683f9f442ebf1f2b6f148649759f104577f1ddbc7fe9a029be1f8142
+- filename: f5-devops-pulumi/.devcontainer/scripts/node-debian.sh
+  checksum: 58d993f0a3dc7b79753e7747fb1e40c88e7d8b5aadc740560f14bc535c6ec0ec
