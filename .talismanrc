@@ -17,3 +17,5 @@ fileignoreconfig:
   checksum: f69dd1bf683f9f442ebf1f2b6f148649759f104577f1ddbc7fe9a029be1f8142
 - filename: f5-devops-pulumi/.devcontainer/scripts/node-debian.sh
   checksum: 58d993f0a3dc7b79753e7747fb1e40c88e7d8b5aadc740560f14bc535c6ec0ec
+- filename: .github/workflows/base.yml
+  checksum: 23f3b5a4ecbd12d57ef53413b8cf63c3ae736e5c9dac5d3082df41e9dda4beb8
