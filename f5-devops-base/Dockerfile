@@ -15,7 +15,8 @@ ENV USERNAME="f5-devops" \
     TERRAFORMVERSION="0.14.0" \
     TERRAFORMDOCSVERSION="0.9.1" \
     ANSIBLEVERSION="2.10.5" \
-    VESCTL_VERSION="0.2.15"
+    VESCTL_VERSION="0.2.15"\
+    SPHINX_VERSION="3.3.1"
 
 COPY scripts/* /tmp/scripts/
 
