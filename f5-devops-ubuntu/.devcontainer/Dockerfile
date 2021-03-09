@@ -78,7 +78,9 @@ RUN set -ex \
 RUN set -ex \
   && ansible-galaxy install nginxinc.nginx \
   && ansible-galaxy install f5devcentral.atc_deploy
-
+# sphinx docs
+RUN set -ex \
+  && bash /tmp/scripts/sphinx-debian.sh ${SPHINX_VERSION}
 # Clean up
 RUN set -ex \
 && apt autoremove -y && apt clean -y && rm -rf /tmp/scripts
