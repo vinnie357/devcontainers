@@ -67,4 +67,18 @@ rm -rf aws
 rm -f awscliv2.zip awscliv2.sig awscligpg.key
 # check install
 /usr/local/bin/aws --version
+
+function uninstall {
+## remove
+# where
+path=$(which aws)
+usrPath=$(ls -l $path | awk '{print $11}')
+echo "removing $usrPath"
+#symlinks
+rm /usr/local/bin/aws
+rm /usr/local/bin/aws_completer
+# files
+rm -rf /usr/local/aws-cli/v2
+}
+
 echo "---installing awscli2 done---"
