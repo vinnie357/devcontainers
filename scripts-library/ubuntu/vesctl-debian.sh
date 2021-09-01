@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "---installing vesctl---"
+#https://gitlab.com/volterra.io/vesctl/-/releases
 VERSION=${1:-"0.2.15"}
 set -e
 
